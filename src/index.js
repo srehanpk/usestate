@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Room from './Room.js';
+import Temp from './Temp.js';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ <>
+    <Room image1="bulb-on.gif" image2="bulb-off.gif" />
+    <Temp />
+ 
+ </>   ,
+
   document.getElementById('root')
 );
 
