@@ -28,7 +28,7 @@ const Temp = () => {
 
 
            <h2>Temperature <span>{updateTemp}</span> Celsius</h2>
-           <br/>
+          <br/>
 
             <button onClick={tup} >Up</button>
             <button onClick={tdown}>Down</button>

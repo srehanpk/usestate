@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
  <>
-    <Room image1="bulb-on.gif" image2="bulb-off.gif" />
+    <Room  />
     <Temp />
  
  </>   ,

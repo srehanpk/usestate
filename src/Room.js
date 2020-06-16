@@ -4,7 +4,7 @@ import './App.css';
 
 
 
-const Room =({image1, image2})=>{
+const Room =()=>{
 
     let [isLit, setLit] = useState(true);
     const bright = isLit ? "lit" : "dark";
